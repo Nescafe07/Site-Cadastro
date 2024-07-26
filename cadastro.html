@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/stylecadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <form>
+        Nome: <br> <input type="text" autofocus="autofocus" placeholder="Informe o Nome" required="required">
+        <br>
+        Idade: <br> <input type="number" placeholder="Informe a Idade" required="required" min="18" max="100"> <br> <h6>Somente +18</h6> 
+        <br>
+        Site: <br> <input type="url" autofocus="autofocus" placeholder="https://www.site.com.br" required="required">
+        <br>
+        Email: <br> <input type="email" autofocus="autofocus" placeholder="Informe o email" required="required">
+        <br>
+        Data de Nascimento: <br> <input type="date" autofocus="autofocus" placeholder="Informe a Data" required="required">
+        <br>
+        Buscar Por: <br> <input type="search" autofocus="autofocus" placeholder="Buscar Por" required="required">
+        <br>
+        Cor: <br> <input type="color" autofocus="autofocus" required="required">
+        <br>
+        Placa do Carro: <br> <input type="text" placeholder="AAA-0000" autofocus="autofocus" required="required" pattern="[A-Z]{3}-[0-9]{4}">
+        <br>
+        CEP: <br> <input type="number" placeholder="00000-000" autofocus="autofocus" required="required" pattern="[0-9]{5}-[0-9]{3}">
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>
